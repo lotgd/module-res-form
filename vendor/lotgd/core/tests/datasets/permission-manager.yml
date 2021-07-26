@@ -1,0 +1,28 @@
+## YAML Template.
+testUsers:
+    -
+        id: 1
+        name: "Test User 1"
+testUserAssociations:
+    -
+        owner: 1
+        permission: "test/permission_one"
+        permissionState: 1
+    -
+        owner: 1
+        permission: "test/permission_two"
+        permissionState: -1
+
+permissions:
+    -
+        id: "test/permission_one"
+        library: "lotgd/core"
+        name: "Test permission."
+    -
+        id: "test/permission_two"
+        library: "lotgd/core"
+        name: "Test permission."
+    -
+        id: "test/permission_tri"
+        library: "lotgd/core"
+        name: "Test permission."

@@ -1,0 +1,36 @@
+{
+    "name": "lotgd/module-res-form",
+    "description": "Resource module to support forms in attachments.",
+    "type": "lotgd-module",
+    "license": "AGPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Basilius Sauter",
+            "email": "basilius.sauter@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "LotGD\\Module\\Res\\Form\\": "src/",
+            "LotGD\\Module\\Res\\Form\\Tests\\": "tests/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://raw.githubusercontent.com/lotgd/packages/master/build/packages.json"
+        }
+    ],
+    "require": {
+        "lotgd/core": "^0.6.0-alpha",
+        "symfony/form": "*"
+    },
+
+    "require-dev": {
+        "phpunit/phpunit": "^9.0",
+        "symfony/yaml": "*"
+    },
+
+    "minimum-stability": "dev",
+    "prefer-stable" : true
+}

@@ -1,0 +1,4 @@
+entityNamespace: "LotGD\\Module\\Res\\Form\\Models"
+subscriptionPatterns:
+    - "#h/lotgd/crate/html/displayScene/renderAttachment/LotGD\\\\Module\\\\Res\\\\Form\\\\SceneAttachments\\\\FormAttachment#"
+daenerysCommands:
